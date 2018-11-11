@@ -51,7 +51,7 @@ def test(sess, net, image_name):
 
     # Visualize detections for each class
     CONF_THRESH = 0.8
-    NMS_THRESH = 0.3
+    NMS_THRESH = 0.03 # 0.3
     result_data = []
     for cls_ind, cls in enumerate(CLASSES[1:]):
         cls_ind += 1 # because we skipped background
