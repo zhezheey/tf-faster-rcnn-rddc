@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This repository contains source files of *Road Damage Detection and Classification (RDDC)* based on Faster R-CNN, which achieve a Mean F1-Score of 0.6255 in the [Road Damage Detection and Classification Challenge](https://bdc2018.mycityreport.net) that held as one of the 2018 IEEE Big Data Cup.
+This repository contains source files of *Road Damage Detection and Classification (RDDC)* based on Faster R-CNN, which achieves a Mean F1-Score of 0.6255 in the [Road Damage Detection and Classification Challenge](https://bdc2018.mycityreport.net) that held as one of the 2018 IEEE Big Data Cup.
 
 It is developed based on the [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) repository and created by Wenzhe Wang.
 
@@ -70,7 +70,7 @@ It is developed based on the [tf-faster-rcnn](https://github.com/endernewton/tf-
 
 ### Submission
 
-Follow the steps below to reproduce the experimental results of my submission.
+Follow the steps below to reproduce the experimental results of our submission.
 
 1. Download [our pre-trained model on RDDC](https://drive.google.com/open?id=1eP-Ca2zD1coxQI3K30u4zbth77NBocrR) and place them inside the `$RDDC_ROOT/output/res152/voc_2007_trainval/default` directory.
 
@@ -83,7 +83,7 @@ Follow the steps below to reproduce the experimental results of my submission.
 
 ### Training
 
-1. Download pre-trained models and weights. The current code support VGG16 and Resnet V1 models. Pre-trained models are provided by slim, you can get the pre-trained models [here](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models) and put them under the `$RDDC_ROOT/data/imagenet_weights` folder. For Resnet152, you can set up like:
+1. Download pre-trained models and weights. The current code supports VGG16 and Resnet V1 models. Pre-trained models are provided by slim, you can get the pre-trained models [here](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models) and put them under the `$RDDC_ROOT/data/imagenet_weights` folder. For Resnet152, you can set up like:
 	```Shell
 	mkdir -p $RDDC_ROOT/data/imagenet_weights
 	cd $RDDC_ROOT/data/imagenet_weights
