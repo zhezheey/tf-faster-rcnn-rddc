@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This repository contains source files of *Road Damage Detection and Classification (RDDC)* based on Faster R-CNN, which achieves a Mean F1-Score of 0.6255 in the [Road Damage Detection and Classification Challenge](https://bdc2018.mycityreport.net) that held as one of the 2018 IEEE Big Data Cup.
+This repository contains source files of *Road Damage Detection and Classification (RDDC)* based on Faster R-CNN, which achieved a Mean F1-Score of 0.6255 in the [Road Damage Detection and Classification Challenge](https://bdc2018.mycityreport.net) that held as one of the 2018 IEEE Big Data Cup and won the Silver Prize (**Ranked 2nd**).
 
 It is developed based on the [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) repository and created by Wenzhe Wang.
 
@@ -92,7 +92,7 @@ Follow the steps below to reproduce the experimental results of our submission.
 	mv resnet_v1_152.ckpt res152.ckpt
 	```
 
-2. Augment the training data refer to `$RDDC_ROOT/analysis/data_augmentation_balance.ipynb`
+2. Augment the training data refer to `$RDDC_ROOT/analysis/data_augmentation_balance.ipynb`.
 
 3. Train
 	```Shell
@@ -119,7 +119,7 @@ Follow the steps below to reproduce the experimental results of our submission.
 
 ### Analysis
 
-Some analyses during the competititon are under `$RDDC_ROOT/analysis`, see `$RDDC_ROOT/analysis/README.md` for details.
+Some [analyses](analysis/README.md) during the competititon are under `$RDDC_ROOT/analysis`.
 
 ### Citation
 
