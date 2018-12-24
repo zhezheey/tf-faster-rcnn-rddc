@@ -114,7 +114,7 @@ Follow the steps below to reproduce the experimental results of our submission.
 	Tensorboard information is saved under:
 	```
 	$RDDC_ROOT/tensorboard/res152/voc_2007_trainval/default/
-	$RDDC_ROOT/tensorboard/res152/svoc_2007_trainval/default_val/
+	$RDDC_ROOT/tensorboard/res152/voc_2007_trainval/default_val/
 	```
 
 ### Analysis
